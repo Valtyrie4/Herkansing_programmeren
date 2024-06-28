@@ -1,0 +1,80 @@
+body {
+    background-color: white;
+    font-family:sans-serif;
+}
+h1 {
+    text-align: center;
+}
+
+button {
+    background-color: yellow;
+    border: none;
+    padding: 3%;
+    width: 20%;
+    border-radius: 0.5em;
+}
+
+#hint {
+    background-color: yellow;
+    padding: 1em;
+    text-align: center;
+    margin-left: 25em;
+    margin-right: 25em;
+    border-radius: 1em;
+}
+
+#Nijntje {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 5%;
+
+}
+
+#buttons {
+    width: 40%;
+    margin-left: 34%;
+  
+}
+
+#energieTekst {
+    text-align: center;
+}
+
+#positieEnergieBar {
+    width: 30vw;
+    height: 10vh;
+    margin-left: 35vw;
+    position: absolute;
+    margin-top: -2%;
+}
+
+#progressBuiten {
+    width: 30vw;
+    height: 5vh;
+    position: absolute;
+    background-color: blue;
+    border-radius: 5vh;
+}
+
+#progressBinnen {
+    margin-top: 1vh;
+    margin-left: 5%;
+    width: 80%;
+    height: 3vh;
+    position: inherit;
+    background-color: green;
+    border-radius: 3vh;
+}
+
+#buttonNaam {
+    padding: 10px 20px;
+    width: inherit;
+}
+
+section#invulveld {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
